@@ -4,3 +4,6 @@ build/*
 *.jpg
 *.png
 *.ppm
+
+# Local source backups and camera experiments
+backups/
