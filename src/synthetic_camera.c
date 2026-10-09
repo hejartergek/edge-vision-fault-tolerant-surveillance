@@ -25,7 +25,7 @@ int camera_capture(
     int *height,
     int *stride)
 {
-int size = SYNTH_WIDTH * SYNTH_HEIGHT * 4;
+size_t size = (size_t)SYNTH_WIDTH * SYNTH_HEIGHT * 4;
 
     unsigned char *buffer = malloc(size);
 
